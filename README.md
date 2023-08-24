@@ -1,2 +1,5 @@
-# mouseMovement
- MOUSE MOVEMENT BYPASS VALORANT VANGUARD
+don't use this shit, buy from the best
+
+* run as admin the main.py
+
+discord.gg/luxvalorant

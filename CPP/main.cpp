@@ -14,8 +14,8 @@ private:
     void findHardware() {
         wchar_t currentDir[MAX_PATH];
         GetCurrentDirectoryW(MAX_PATH, currentDir); 
-        std::wstring mapper = std::wstring(currentDir) + L"\\Mapper.exe";
-        std::wstring driver = std::wstring(currentDir) + L"\\mouseMoveDriver.sys";
+        std::wstring mapper = std::wstring(currentDir) + L"data\\Mapper.exe";
+        std::wstring driver = std::wstring(currentDir) + L"data\\mouseMoveDriver.sys";
         std::this_thread::sleep_for(std::chrono::seconds(1));
 
         sockaddr_in serverAddress;
@@ -77,7 +77,7 @@ public:
 };
 
 int main() {
-/// brazil on top , the kings 
+	/// brazil on top , the kings 
     ///just copying and pasting
     MainFunction obj;
     obj.move(10, 20);
